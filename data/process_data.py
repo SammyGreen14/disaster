@@ -70,7 +70,7 @@ def save_data(df, database_filename):
     #Initialize the sql path
     engine = create_engine(update_filename_str)
     #Saves the file
-    df.to_sql('CategorizedMessages', engine, index=False)
+    df.to_sql('CategorizedMessages', engine, index=False, if_exists = 'replace')
 
 
 def main():
