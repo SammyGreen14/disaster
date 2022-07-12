@@ -14,6 +14,9 @@ Packages used include sys, nltk, numpy, pandas, pickle, re, sklearn, sqlalchemy
  
 ## Aditional Notes
 na were replaced with 0 as 0 represents the category does not apply to the message
+
+## GitHub Repository
+https://github.com/SammyGreen14/disaster
  
 ## Files
 data/disaster_categories.csv: CSV file with the category data
