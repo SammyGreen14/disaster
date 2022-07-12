@@ -16,8 +16,11 @@ Packages used include sys, nltk, numpy, pandas, pickle, re, sklearn, sqlalchemy
 na were replaced with 0 as 0 represents the category does not apply to the message
  
 ## Files
-disaster_categories.csv: CSV file with the category data
-disaster_messages.csv: CSV file with the messages data in original language and English
-process_data.py: Python file that reads in and cleans the data
-train_classifier.py: Python file that trains the model using an ML Pipeline
-run.py: Python file that runs the process start to finish of ETL, ML Pipeline, and creating the app
+data/disaster_categories.csv: CSV file with the category data
+data/disaster_messages.csv: CSV file with the messages data in original language and English
+data/process_data.py: Python file that reads in and cleans the data
+models/train_classifier.py: Python file that trains the model using an ML Pipeline
+models/classifier.pkl: pickle file where the model will be saved to
+app/run.py: Python file that runs the process start to finish of ETL, ML Pipeline, and creating the app
+app/templates/go.html: HTML file which formats the categories for classification on the app
+app/templates/master.html: HTML file which formats the app
