@@ -55,7 +55,6 @@ def index():
 
     
     # create visuals
-    # TODO: Below is an example - modify to create your own visuals
     graphs = [
         {
             'data': [
